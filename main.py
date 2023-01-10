@@ -1,4 +1,5 @@
 import platform
+import pycparser
 
 import fire as fire
 
@@ -52,6 +53,4 @@ def help():
 
 
 if __name__ == '__main__':
-    # 进行编译
     fire.Fire()
-    print()
